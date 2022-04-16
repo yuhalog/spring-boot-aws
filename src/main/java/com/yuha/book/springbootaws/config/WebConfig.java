@@ -1,6 +1,6 @@
-package com.yuha.book.springbootaws.domain.config;
+package com.yuha.book.springbootaws.config;
 
-import com.yuha.book.springbootaws.domain.config.auth.LoginUserArgumentResolver;
+import com.yuha.book.springbootaws.config.auth.LoginUserArgumentResolver;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;

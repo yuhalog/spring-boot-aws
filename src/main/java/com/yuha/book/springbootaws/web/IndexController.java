@@ -1,7 +1,7 @@
 package com.yuha.book.springbootaws.web;
 
-import com.yuha.book.springbootaws.domain.config.auth.LoginUser;
-import com.yuha.book.springbootaws.domain.config.auth.dto.SessionUser;
+import com.yuha.book.springbootaws.config.auth.LoginUser;
+import com.yuha.book.springbootaws.config.auth.dto.SessionUser;
 import com.yuha.book.springbootaws.service.posts.PostsService;
 import com.yuha.book.springbootaws.web.dto.PostsResponseDto;
 import lombok.RequiredArgsConstructor;

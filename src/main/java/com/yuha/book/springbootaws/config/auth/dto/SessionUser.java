@@ -1,4 +1,4 @@
-package com.yuha.book.springbootaws.domain.config.auth.dto;
+package com.yuha.book.springbootaws.config.auth.dto;
 
 import com.yuha.book.springbootaws.domain.user.User;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.yuha.book.springbootaws.domain.config.auth;
+package com.yuha.book.springbootaws.config.auth;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

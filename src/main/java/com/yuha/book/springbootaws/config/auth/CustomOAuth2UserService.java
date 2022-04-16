@@ -1,7 +1,7 @@
-package com.yuha.book.springbootaws.domain.config.auth;
+package com.yuha.book.springbootaws.config.auth;
 
-import com.yuha.book.springbootaws.domain.config.auth.dto.OAuthAttributes;
-import com.yuha.book.springbootaws.domain.config.auth.dto.SessionUser;
+import com.yuha.book.springbootaws.config.auth.dto.OAuthAttributes;
+import com.yuha.book.springbootaws.config.auth.dto.SessionUser;
 import com.yuha.book.springbootaws.domain.user.User;
 import com.yuha.book.springbootaws.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;

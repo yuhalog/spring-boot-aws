@@ -1,4 +1,4 @@
-package com.yuha.book.springbootaws.domain.config.auth;
+package com.yuha.book.springbootaws.config.auth;
 
 import com.yuha.book.springbootaws.domain.user.Role;
 import lombok.RequiredArgsConstructor;
