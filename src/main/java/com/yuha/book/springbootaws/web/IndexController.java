@@ -1,5 +1,6 @@
 package com.yuha.book.springbootaws.web;
 
+import com.yuha.book.springbootaws.domain.config.auth.LoginUser;
 import com.yuha.book.springbootaws.domain.config.auth.dto.SessionUser;
 import com.yuha.book.springbootaws.service.posts.PostsService;
 import com.yuha.book.springbootaws.web.dto.PostsResponseDto;
@@ -19,9 +20,8 @@ public class IndexController {
     private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) {
         model.addAttribute("posts", postsService.findByDesc());
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
 
         if (user != null) {
             model.addAttribute("userName", user.getName());
